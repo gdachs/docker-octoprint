@@ -9,6 +9,7 @@ RUN apk --no-cache add cmake
 RUN apk --no-cache add libjpeg-turbo-dev
 RUN apk --no-cache add linux-headers
 RUN apk --no-cache add openssl
+RUN apk --no-cache add openssl-dev
 RUN apk --no-cache add zlib-dev
 RUN apk --no-cache add bash
 
